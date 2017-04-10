@@ -1,16 +1,5 @@
-include \masm32\include\masm32rt.inc
-include \masm32\include\windows.inc
-include \masm32\include\user32.inc
-include \masm32\include\kernel32.inc
-include \masm32\include\gdi32.inc
-includelib \masm32\lib\user32.lib
-includelib \masm32\lib\kernel32.lib
-includelib \masm32\lib\gdi32.lib
-include logic.inc
 
 .data
-
-turnSyntax BYTE "x = 0, y = 0, turn = 1", 0Dh, 0Ah, 0
 
 .code
 
